@@ -1,9 +1,13 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import Landing from './pages/Landing';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Monument React</h1>
+    <Navbar />   
+    <Landing />   
     </div>
   );
 }
