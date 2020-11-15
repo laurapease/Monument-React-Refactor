@@ -1,9 +1,17 @@
 import React from 'react';
+import './Blog.css';
+import Header from '../components/BlogHeader';
+import Article from '../components/Article/Article';
+import Aside from '../components/Aside';
 
 function Blog() {
     return (
-        <h1>Blog</h1>
+        <div>
+        <Header />
+        <Article />
+        {/* <Aside /> */}
 
+        </div>
     )
 };
 

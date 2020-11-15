@@ -13,7 +13,7 @@ const Footer = (props) => {
 			<button type="submit">Subscribe</button>
 		</div>
 
-		<p class="copyright">&copy;2016 Sarah Holden</p>
+		<p className="copyright">&copy;2016 Sarah Holden</p>
 	</footer>
     )
 };
